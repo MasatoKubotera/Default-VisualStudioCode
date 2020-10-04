@@ -6,7 +6,7 @@ VisualStudioCode for windows ステップ実行 デフォルトファイル
 ---
 # 変更点
 
-- ファイル名に左右されないgccコマンドに変更
+- ファイル名に左右されず，math.hに対応した gccコマンドに変更
   
   - tasks.jon `"command": "gcc -g -lm -O0 -o a.exe ${file}"`
 ---
